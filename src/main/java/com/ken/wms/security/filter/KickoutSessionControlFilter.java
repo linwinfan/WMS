@@ -1,6 +1,5 @@
 package com.ken.wms.security.filter;
 
-import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.session.Session;
@@ -21,8 +20,7 @@ import java.util.LinkedList;
 /**
  * 实现并发登陆人数控制
  *
- * @author Ken
- * @since 2017/4/27.
+
  */
 public class KickoutSessionControlFilter extends AccessControlFilter {
 
